@@ -1,7 +1,7 @@
 ################################################################################
 #                                                                              #
 #     Jonathan D. Ware                                                         #
-#     In the Mix Model Estimation and Analysis                                 #
+#     Thesis Project Model Estimation and Analysis                             #
 #     Updated: 12/04/2022                                                      #
 #                                                                              #
 ################################################################################
