@@ -447,4 +447,12 @@ aquaeff.v2 <- includeEffects(aquaeff.v1,sameXTransTrip,interaction1 = "aggre", i
 # also want to add an effect for dense triads in the network to see if underlying
 # process of transitivity is present regardless of nodal attribute
 
-aquaeff.v2 <- includeEffects(aquaeff.v1, denseTriads)
+aquaeff.v2 <- includeEffects(aquaeff.v2, denseTriads)
+
+# Replicate with Magma 
+
+effectsDocumentation(magmaeff.v1)
+
+magmaeff.v2 <- includeEffects(magmaeff.v1,sameXTransTrip,interaction1 = "aggre", include=F)
+magmaaeff.v2 <- includeEffects(magmaeff.v2, denseTriads)
+
